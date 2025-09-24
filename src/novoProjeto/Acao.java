@@ -23,5 +23,37 @@ public class Acao {
 
 
     }
+    //Get e Setter nome
+    public String getNome(){
+        return this.nome;
+    }
+    public void setNome(String nome){
+        this.nome = nome;
+    }
 
+    //Get e setter
+    public String getData(){
+        return this.data;
+    }
+
+    public void setData(String data){
+        this.data = data;
+    }
+
+    //Get e setter
+    public String getLocal(){
+        return this.local;
+    }
+
+    public void setLocal(String local){
+        this.local = local;
+    }
+
+    public ArrayList<Cadastrado> getVoluntarios(){
+        return this.voluntarios;
+    }
+
+    public void adicionarVoluntario(Cadastrado c){
+        this.voluntarios.add(c);
+    }
 }
